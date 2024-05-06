@@ -20,26 +20,26 @@ test('get started link', async ({ page }) => {
 
 
 // ! ******************************************************************************
-// test.skip('has titleSecond', async ({ page }) => {
-//   await page.goto('https://playwright.dev/');
+test.skip('has titleSecond', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
 
-  // Expect a title "to contain" a substring.
-//   await expect(page).toHaveTitle(/Playwright/);
-// });
+  Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle(/Playwright/);
+});
 
-// test.only('has titleThird', async ({ page }) => {
-//   await page.goto('https://playwright.dev/');
+test.only('has titleThird', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
 
-  // Expect a title "to contain" a substring.
-//   await expect(page).toHaveTitle(/Playwright111/);
-// });
+  Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle(/Playwright111/);
+});
 
 
-// test.only('has titleFourth', async ({ page }) => {
-//   await page.goto('https://playwright.dev/');
+test.only('has titleFourth', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
 
-  // Expect a title "to contain" a substring.
-//   await expect(page).toHaveTitle(/Playwright/);
-// });
+  Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle(/Playwright/);
+});
 
 
